@@ -1,0 +1,64 @@
+.formmid {
+    width: 50%;
+    margin-top: 50px;
+}
+h1{
+    text-decoration: underline ;
+}
+
+iframe, object, embed {
+    max-width: 100%;
+}
+
+/* label focus color */
+.row .input-field input[type=text]:focus + label {
+    color: #26c6da;
+}
+.row .input-field input[type=email]:focus + label {
+    color: #26c6da;
+}
+
+.row .input-field input[type=date]:focus + label {
+    color: #26c6da;
+}
+
+/* label underline focus color */
+.row .input-field input[type=text]:focus {
+    border-bottom: 1px solid #26c6da;
+    box-shadow: 0 1px 0 0 #26c6da;
+}
+
+.row .input-field input[type=email]:focus {
+    border-bottom: 1px solid #26c6da;
+    box-shadow: 0 1px 0 0 #26c6da;
+}
+.row .input-field input[type=date]:focus {
+    border-bottom: 1px solid #26c6da;
+    box-shadow: 0 1px 0 0 #26c6da;
+}
+
+.row .input-field input[type=password]:focus {
+    border-bottom: 1px solid #26c6da;
+    box-shadow: 0 1px 0 0 #26c6da;
+}
+
+.row .icons  option:focus {
+    border-bottom: 1px solid #26c6da;
+    box-shadow: 0 1px 0 0 #26c6da;
+}
+
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #26c6da;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .formmid {
+        width: 90%;
+    }
+}
+#response{
+    text-align: center;
+}
